@@ -1,0 +1,565 @@
+
+body{
+  /* background-image: linear-gradient(darkblue,darkred); */
+  background-image: linear-gradient(lightgrey 10%,black,darkred,blue,black,yellow);
+}
+
+
+/* Navigation section */
+
+.topsection{
+    height: 60px;
+    width: 100%;
+    background-image: linear-gradient(SaddleBrown ,black);
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: center;
+    position: relative;
+}
+
+#logoimg{
+    height: 56px;
+    width: auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+.white-color{
+    color: white;
+}
+
+#logo-name{
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 10%;
+}
+
+#search{
+    position: absolute;
+    top: 34%;
+    right: 18%;
+    width: 220px;
+    color: black;
+    height: 23px;
+    border: 2px solid white;
+    border-radius: 5%;
+}
+
+#favourites{
+    font-size: 15px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+#search-icon{
+    position: absolute;
+    right: 200px;
+    top: 35%;
+}
+
+.nav-icons i{
+    font-size:20px;
+    color: white;
+}
+
+#noti{
+    position: absolute;
+    right: 70px;
+    top: 35%;
+}
+
+#profile
+{
+    position: absolute;
+    right: 20px;
+    top: 8%;
+}
+
+#profile i{
+    font-size: 50px;
+}
+
+
+/* Image Section */
+
+#main-container{
+    height: 95vh;
+    width: 90%;
+    background-image: radial-gradient(white,darkkhaki);
+    
+    margin-left: 60px;
+    margin-right: 60px;
+    /* border: 2px solid white; */
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: center;
+    position: relative;
+}
+
+main{
+  display: inline-block;
+  width: 60%;
+  /* border: 2px solid white; */
+}
+
+#slideshow {
+    overflow: hidden;
+    height: 350px;
+    width: 728px;
+    margin-top: 20px;
+    margin-left: 60px;
+    /* border: 2px solid white; */
+    content: fill;
+  }
+  
+  .slide-wrapper {
+    width: 2912px;
+    -webkit-animation: slide 16s ease infinite;
+  }
+  
+  .slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+  }
+
+  .slide-number{
+      width: 728px;
+  }
+
+  @-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    70% {margin-left: -1456px;}
+    80% {margin-left: -2184px;}
+    90% {margin-left: -2184px;}
+  }
+
+  /* Latest Release Section */
+
+  #latest-release{
+      display: flex;
+      position: relative;
+      overflow: hidden;
+      height: 300px;
+      width: 728px;
+      margin-top: 25px;
+      margin-left: 60px;
+      /* border: 2px solid white; */
+      /* background-color: darkblue; */
+      background-image: radial-gradient(tan ,black 90%);
+     
+  }
+
+  .section-headings{
+      color: white;
+      margin: 0;
+      white-space: nowrap;
+      font-size: 25px; 
+      letter-spacing: 2px;
+  }
+
+  .latest-inner{
+      position: absolute;
+      top: 0%;
+      /* border: 2px solid white; */
+  }
+
+  .position-detail{
+    height: 128px;
+    width: 60px;
+    position: absolute;
+    padding-right: 300px;
+    /* border: 2px solid white; */
+  }
+
+  #detail1{
+   margin-top: 40px;
+    left: 0%;
+    
+  }
+
+  #detail2{
+  margin-top: 40px;
+    right: 0%;
+    
+  }
+
+
+  #detail3{
+   
+    left: 0%;
+    bottom: 0%;
+    
+  }
+  
+  #detail4{
+   
+    right: 0%;
+    bottom: 0%;
+    
+  }
+  
+
+
+  #latest-details{
+      position: absolute;
+      display: inline-block;
+      color: white;
+      left:110%;
+      font-size: 25px;
+      top: 20%;
+
+  }
+
+  #imglatest{
+      height: 128px;
+      width: auto;
+  }
+
+  #date-latest{
+    font-size: 15px;
+    color: gainsboro;
+    margin-top: 2px;
+    white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  }
+  
+
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+    left: 215%;
+    height: 10px;
+    width: 20px;
+    top: -20%;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    flex-wrap: wrap;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    background-color:lightgrey;
+    width: 120px;
+  }
+
+  .dropdown-content a{
+      text-decoration: none;
+      color: black;
+      letter-spacing: 1px;
+      font-size: 15px;
+  }
+
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    color: lightgray;
+    
+  }
+
+  /* aside section */
+
+  aside {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+    margin-top: -15px;
+    width: 450px;
+    height: 725px;
+    /* border: 2px solid white; */
+}
+
+#drop{
+  color: black;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+#queue{
+  color: black;
+  margin-top: 45px;
+  margin-left: 220px;
+}
+
+.items{
+  display: flex;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-image:radial-gradient(peru,rgb(65, 52, 52));
+  margin-bottom: 14px;
+}
+
+#heart-queue{
+  margin-left: 180px;
+  color: white;
+  margin-top: 17px;
+  font-size: 20px;
+}
+#queue-name{
+  margin-top: 0px;
+  display: flex;
+  margin-left: 4px;
+}
+
+#namequeue{
+  font-family: sans-serif;
+  font-size: 40px;
+  color: black;
+  letter-spacing: 3px;
+}
+  #queueimg{
+    height: 50px;
+    width: auto;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+
+  .item-details{
+    color: white;
+    display: flex;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+
+  #numbers{
+    
+    color: white;
+    margin-top: 14px;
+    font-size: 25px;
+    
+  }
+
+  #main-container2{
+    height: 1280px;
+    width: 90%;
+    background-image: radial-gradient(lightsalmon,rosybrown);
+    /* background-color: lightgrey; */
+    margin-left: 60px;
+    margin-right: 60px;
+    border: 2px solid white;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: center;
+    position: relative;
+}
+
+/* Latest - Artists */
+
+.section-divs{
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 60px;
+  /* border: 2px solid white; */
+}
+
+#details{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.artist-details{
+  margin-top: 40px;
+  position: relative;
+  margin-right: 68px;  
+}
+
+.artist-details a img:hover{
+ border: 2px solid white;   
+ box-shadow: 1px 1px 1px 1px grey;
+}
+
+.imgartist{
+  border-radius: 50%;
+  height: 128px;
+  width: auto;
+}
+
+#artist1{
+  position: absolute;
+  margin-right:-10px; 
+}
+
+
+/* Station Section */
+
+#stationbg{
+  background-image: radial-gradient(sienna,rgb(65, 52, 52));
+}
+
+#station1{
+  position: absolute;
+  margin-left: 40px;
+
+}
+
+#station-detail1{
+  margin-top: 23px;
+  position:relative;
+  margin-left: 250px;
+  
+}
+.station-details{
+  margin-top: 23px;
+  margin-left: 30px;
+  margin-right: 14px;
+}
+
+.station-details a img:hover{
+  border: 2px solid white;   
+  box-shadow: 1px 1px 1px 1px grey;
+ }
+
+#stationimg{
+  height: 135px;
+      width: auto;
+}
+
+
+#section-divs-type{
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  height: 250px;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 60px;
+  /* border: 2px solid white; */
+}
+
+.img-type{
+  height: 250px;
+  width:372px;
+}
+#type2{
+  margin-right:50px;
+  margin-left:50px;
+}
+
+/* Latest English - Hindi */
+
+.section-divs-latestlang{
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  height: 220px;
+  width: 90%;
+  margin-top: 20px;
+  margin-left: 60px;
+  /* border: 2px solid white; */
+}
+
+#hindi{
+  background-image: radial-gradient(tan,rgb(65, 52, 52));
+}
+
+#english{
+  background-image: radial-gradient(khaki,SaddleBrown);
+}
+
+#artists{
+  background-image: radial-gradient(DarkSeaGreen ,rgb(65, 52, 52));
+}
+
+.imglang{
+  
+  height: 128px;
+  width: 150;
+}
+
+.lang-details{
+  margin-top: 40px;
+  position: relative;
+  margin-right: 65px;  
+}
+
+#lang1{
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 0px;
+  
+}
+
+#lang2{
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 0px;
+}
+
+.lang-details a img:hover{
+ border: 2px solid white;   
+ box-shadow: 1px 1px 1px 1px grey;
+}
+
+/* Bottom Conatainer */
+
+#bottom{
+  height: 70px;
+  width: 100%;
+  display: flex;
+  background-image: linear-gradient(rgb(58, 124, 124),black);
+  position: fixed ;
+  bottom: 0;
+  left:3px;
+}
+
+#audio{
+ 
+  height: 40px;
+  width:550px;
+ background-color: cyan;
+ /* border-radius: 30%; */
+ /* border-bottom: 10px solid cyan; */
+
+}
+
+#audioimg{
+  height:50px;
+  width:50px;
+  vertical-align: center;
+  margin-left: 60px;
+  margin-top:10px;
+}
+
+#song-name{
+  font-size:15px;
+  color:white;
+  margin-top: 10;
+  margin-left: 40px;
+}
+
+.heart{
+  margin-top: 22px;
+  margin-left: 40px;
+  color: white;
+}
+
+.heart a{
+  color: white;
+}
+
+#bar{
+  margin-top: 10px;
+  margin-left: 100px;
+  color: white;
+  margin-right: 60px;
+}
